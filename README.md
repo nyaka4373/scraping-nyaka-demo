@@ -1,31 +1,33 @@
 # scraping-nyaka-demo
-このリポジトリは、[対象サイト名] を対象にしたWebスクレイピングの実践例です。[使用した主な技術] を用いて [取得したデータ] を収集し、[最終的な成果物の形式] で出力します。
+This repository is a practical example of web scraping targeting [target site name]. It collects [data obtained] using [main technologies used] and outputs it in [final deliverable format].
 
 # 🕷️ Web Scraping Practice with Scraping Training Site
 
-このリポジトリは、教育用サイト「[スクレイピング練習場（ベータ）](https://scraping-training.vercel.app/)」を対象に、Pythonを使った実践的なWebスクレイピングの技術を実証するものです。
+This repository demonstrates practical web scraping techniques using Python, targeting the educational site “[Scraping Training Site (Beta)](https://scraping-training.vercel.app/)”.
 
-## 🎯 プロジェクトの目的
+## 🎯 Project Objectives
 
-- **BeautifulSoup4** と **Requests** ライブラリを用いた、基本的かつ堅牢なスクレイピングの実装
-- ページネーション（複数ページにわたるデータの取得）の処理方法の習得
-- 取得したデータの清洗、整形、および **CSVファイル** や **JSONファイル** への変換
-- 実際のスクレイピングプロジェクトのワークフロー（エラーハンドリング、データ管理）の理解
+- Implement basic yet robust scraping using the **BeautifulSoup4** and **Requests** libraries
+- Master handling pagination (retrieving data across multiple pages)
+- Clean, format, and convert acquired data into **CSV files** or **JSON files**
+- Understanding the workflow of real scraping projects (error handling, data management)
 
-## ⚙️ 主な機能
+## ⚙️ Key Features
 
-- **商品情報の取得**: 練習サイト上の商品名、価格、在庫状況、評価などのデータを抽出します。
-- **自動ページ送り**: サイト内の全ての商品を自動的に収集するために、次のページへの遷移を処理します。
-- **データエクスポート**: 取得したデータを整理し、分析や保存が容易な形式（CSV）で出力します。
-- **倫理的な配慮**: 対象サイトの `robots.txt` と利用規約を尊重し、サーバーに過負荷をかけないよう適切なインターバルを設定しています。
+- **Product Information Extraction**: Extract data such as product names, prices, stock status, and ratings from the practice site.
+- **Automatic Page Navigation**: Handle navigation to subsequent pages to automatically collect all products on the site.
+- **Data Export**: Organizes retrieved data and outputs it in an easily analyzable and storable format (CSV).
+- **Ethical Considerations**: Respects the target site's `robots.txt` and terms of service, setting appropriate intervals to avoid overloading the server.
 
-## 🛠 使用技術
+## 🛠 Technologies Used
 
-| カテゴリー | 技術・ツール |
+| Category | Technology/Tool |
 | :--- | :--- |
-| **プログラミング言語** | Python 3.x |
-| **主要ライブラリ** | requests, BeautifulSoup4, pandas |
-| **開発環境** | Git, GitHub, VSCode |
-| **その他** | Markdown |
+| **Programming Language** | Python 3.x |
+| **Primary Libraries** | requests, BeautifulSoup4, pandas |
+| **Development Environment** | Git, GitHub, VSCode |
+| **Other** | Markdown |
 
-## 📦 プロジェクト構成
+## 📦 Project Structure
+
+Translated with DeepL.com (free version)
